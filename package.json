@@ -4,6 +4,7 @@
     "author": "Rubens Pinheiro Gonçalves Cavalcante", 
     "version": "0.1", 
     "fullName": "Cardápio RU UECE", 
-    "id": "jid1-URRWCBkHJT9VuQ", 
+    "id": "jid1-URRWCBkHJT9VuQ",
+    "icon": "data/images/logo.png",
     "description": "Notifica sobre o cardápio do dia"
 }
