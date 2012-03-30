@@ -14,14 +14,18 @@ Devido à página referente ao cardápio do *RU da Universidade Estadual do Cear
 
 
 Author
-============
+=========
 
 Rubens Pinheiro Gonçalves Cavalcante  
 email: [rubenspgcavalcante@gmail.com](mailto:rubenspgcavalcante@gmail.com)
 
+Suporte
+==========
+
+Para relatar bugs ou pedir novas funcionalidades, basta abrir um pedido no [github](https://github.com/rubenspgcavalcante/Cardapio-RU-UECE/issues,"issues")
 
 Licença e Direitos
-==============
+===========
 
 Utilizando GNU LESSER GENERAL PUBLIC LICENSE *Version 3, 29 June 2007*  
 disponível [aqui](http://www.gnu.org/copyleft/gpl.html,"GPLv3")  
