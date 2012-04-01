@@ -1,6 +1,16 @@
+.box{
+    background-color: #a9d7d4;
+    
+    width: 460px;
+    height: 300px;
+    color: #4b4b4b;
+}
+
 .menuheader{
 	font-size:14px;
 	text-align: center;
+	font-family: times;
+	color: #000;
 }
 
 ul{
@@ -9,8 +19,15 @@ ul{
 }
 
 .menu .info-block{
-	width:300px;
+	width:420px;
 	height: 40px;
+	font-family: arial;
+}
+
+.menu .info-block:hover{
+    background-color: #b0e3e0;
+    cursor: pointer;
+    color: black;
 }
 
 .menu .info-block h2{
