@@ -4,8 +4,7 @@ self.port.on("setMenu", function(menu) {
 	}
 
 	for(i in menu){
-		$("#"+i+ ".info-block span").html(menu[i]);
-
+		$("#" + i + " .info-block span").html(menu[i]);
 	}
 
 });
