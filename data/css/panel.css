@@ -1,6 +1,6 @@
 .box{
-    background-color: #a9d7d4;
-    
+    background: url("../images/bg.jpg") no-repeat bottom right;
+    background-color: #CAE1D7;
     width: 460px;
     height: 300px;
     color: #4b4b4b;
@@ -20,12 +20,14 @@ ul{
 
 .menu .info-block{
 	width:420px;
-	height: 40px;
+	height: 35px;
+	margin-top:10px;
 	font-family: arial;
+	opacity: 0.1;
 }
 
 .menu .info-block:hover{
-    background-color: #b0e3e0;
+    background-color: #4BD894;
     cursor: pointer;
     color: black;
 }
