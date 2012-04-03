@@ -12,6 +12,36 @@ Aviso
 Esta extensão está sob desenvolvimento e algumas outras funcionalidade serão adicionadas futuramente.  
 Devido à página referente ao cardápio do *RU da Universidade Estadual do Ceará* não conter um padrão de html (estrutura no qual a página é feita), alguns erros podem ocorrer quando a extensão tentar obter o cardápio como não ter informações do dia, ou incertas. Com o desenvolvimento posterior novos casos de erros serão estudados para que a informação venha corretamente.
 
+Informações técnicas
+=========
+
+Para que a notificação automática funcione, deve estar instalado no Linux o libnotify (já vem padrão em várias distros) e no Windows e OS X o [Growl](http://growl.info/).
+Mesmo sem isso a extensão funciona normalmente, podendo-se acessar o painel com o cardápio completo.
+
+Changelog
+=========
+V 0.2
+========
+* Adicionado request inteligente
+** Só faz uma requisição ajax se o cardápio salvo no **storage** estiver defazado ou se não estiver salvo.
+
+* Removido notificação ao clique no widget
+
+* Adicionado notificação automática
+** Após iniciar instância do firefox, verifica se é sábado, domingo ou se passaram das 13:00 horas, senão usuário é notificado.
+
+* Adicionado painel com cardápio completo
+** Disponível ao clicar no widget.
+
+* Adicionado loader no widget
+** Enquanto se obtém o cardápio, widget exibe barra de carregamento
+
+V 0.1
+========
+* Request à página do cardápio do RU da UECE
+
+* Notificação da opção de carne ao clicar no widget
+
 
 Author
 =========
