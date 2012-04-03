@@ -5,6 +5,7 @@ Sobre
 ========
 
 Esta extensão alerta o usuário sobre o cardápio do Restaurante Universitário.
+Contém painel com o cardápio do dia.
 
 Aviso
 ========
@@ -21,23 +22,23 @@ Mesmo sem isso a extensão funciona normalmente, podendo-se acessar o painel com
 Changelog
 =========
 V 0.2
-========
+---------
 * Adicionado request inteligente
-** Só faz uma requisição ajax se o cardápio salvo no **storage** estiver defazado ou se não estiver salvo.
+    * Só faz uma requisição ajax se o cardápio salvo no **storage** estiver defazado ou se não estiver salvo.
 
 * Removido notificação ao clique no widget
 
 * Adicionado notificação automática
-** Após iniciar instância do firefox, verifica se é sábado, domingo ou se passaram das 13:00 horas, senão usuário é notificado.
+	* Após iniciar instância do firefox, verifica se é sábado, domingo ou se passaram das 13:00 horas, senão usuário é notificado.
 
 * Adicionado painel com cardápio completo
-** Disponível ao clicar no widget.
+	* Disponível ao clicar no widget.
 
 * Adicionado loader no widget
-** Enquanto se obtém o cardápio, widget exibe barra de carregamento
+	* Enquanto se obtém o cardápio, widget exibe barra de carregamento
 
 V 0.1
-========
+---------
 * Request à página do cardápio do RU da UECE
 
 * Notificação da opção de carne ao clicar no widget
@@ -52,12 +53,12 @@ email: [rubenspgcavalcante@gmail.com](mailto:rubenspgcavalcante@gmail.com)
 Suporte
 ==========
 
-Para relatar bugs ou pedir novas funcionalidades, basta abrir um pedido no [github](https://github.com/rubenspgcavalcante/Cardapio-RU-UECE/issues,"issues")
+Para relatar bugs ou pedir novas funcionalidades, basta abrir um pedido no [github](https://github.com/rubenspgcavalcante/Cardapio-RU-UECE/issues "issues")
 
 Licença e Direitos
 ===========
 
 Utilizando GNU LESSER GENERAL PUBLIC LICENSE *Version 3, 29 June 2007*  
-disponível [aqui](http://www.gnu.org/copyleft/gpl.html,"GPLv3")  
+disponível em [gnu.org](http://www.gnu.org/copyleft/gpl.html,"GPLv3")  
   
 O logotipo (Brasão) e o nome Universidade Estadual do Ceará (UECE) são pertecentes ao Governo do Estado do Ceará ©. Todos os direitos reservados.
