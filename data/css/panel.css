@@ -4,8 +4,7 @@ body{
 }
 
 .box{
-    background: url("../images/bg.jpg") no-repeat bottom right;
-    background-color: #CAE1D7;
+    background: url("../images/panel.png") no-repeat bottom right;
     width: 475px;
     min-height: 320px;
     color: #4b4b4b;
@@ -14,14 +13,14 @@ body{
 #close{
 	background: none;
 	cursor: pointer;
-	width: 32px;
-	height: 32px;
+	width: 16px;
+	height: 16px;
 	padding: 0;
 	margin: 0;
 	background-image: url("../images/close.png");
 	border: none;
 	float:right;
-	margin-top: 5px;
+	margin-top: 10px;
 	margin-right: 10px;
 }
 
@@ -33,10 +32,11 @@ body{
 .box .menuheader{
 	font-size:14px;
 	text-align: center;
-	color: #000;
+	color: white;
     text-align: center;
-    margin-left: -70px;
+    margin-left: 0px;
     padding-top: 10px;
+    text-shadow: 1px 1px 2px black;
 }
 
 .box select{
@@ -45,26 +45,37 @@ body{
     margin-left: 6px;
     position: absolute;
     width: 70px;
-    
+	margin-top: -2px;    
 }
 
 ul{
 	list-style-type: none;
-	margin-left: -22px; 
+	margin: 0;
+	padding:5px 0 0 28px;
+	margin-left: -22px;
+}
+
+.menu img{
+	float: left;
+
 }
 
 .menu .info-block{
-	width:440px;
-	height: 35px;
-	margin-top:10px;
 	font-family: arial;
-	opacity: 0.1;
+	opacity: 1;
+    cursor: pointer;
+    height: 38px;
+    margin-left: 75px;
+    margin-top: 8px;
+    width: 394px;
 }
 
 .menu .info-block:hover{
-    background-color: #4BD894;
-    cursor: pointer;
-    color: black;
+	background-color: #393939;
+	box-shadow:1px 1px 12px #393939;
+	color: white;
+	font-weight: bold;
+	text-shadow: 2px 1px 2px black;
 }
 
 .menu .info-block h2{
