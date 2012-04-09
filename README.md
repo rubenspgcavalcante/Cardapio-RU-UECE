@@ -13,14 +13,36 @@ Aviso
 Esta extensão está sob desenvolvimento e algumas outras funcionalidade serão adicionadas futuramente.  
 Devido à página referente ao cardápio do *RU da Universidade Estadual do Ceará* não conter um padrão de html (estrutura no qual a página é feita), alguns erros podem ocorrer quando a extensão tentar obter o cardápio como não ter informações do dia, ou incertas. Com o desenvolvimento posterior novos casos de erros serão estudados para que a informação venha corretamente.
 
-Informações técnicas
-=========
-
 Para que a notificação automática funcione, deve estar instalado no Linux o libnotify (já vem padrão em várias distros) e no Windows e OS X o [Growl](http://growl.info/).
 Mesmo sem isso a extensão funciona normalmente, podendo-se acessar o painel com o cardápio completo.
 
+Informações técnicas
+=========
+
+Utilizando o firefox add-on SDK 1.5.  
+Mais informações de como utilizá-lo em [Mozzila add-on 1.5](https://addons.mozilla.org/en-US/developers/docs/sdk/1.5/).
+
+
 Changelog
 =========
+V 0.3
+---------
+* Melhoria na interface
+    * Interface em tons de cinza (Ambiance style).
+    * Removido labels e deixado apenas ícones
+    * Aplicado alguns atributos CSS3
+    * Botão de fechar
+
+* Busca por vários dias
+    * Select adicionado para seleção de dia.
+
+* Iniciar seleção por dia atual
+
+Problemas conhecidos
+-------
+* Cardápio de quinta-feira puxa o de sexta.
+    * Devido a um problema no HTML da página (erros de validação e falta de padrão), o script pega essa informação de forma errada.
+
 V 0.2
 ---------
 * Adicionado request inteligente
@@ -29,13 +51,13 @@ V 0.2
 * Removido notificação ao clique no widget
 
 * Adicionado notificação automática
-	* Após iniciar instância do firefox, verifica se é sábado, domingo ou se passaram das 13:00 horas, senão usuário é notificado.
+    * Após iniciar instância do firefox, verifica se é sábado, domingo ou se passaram das 13:00 horas, senão usuário é notificado.
 
 * Adicionado painel com cardápio completo
-	* Disponível ao clicar no widget.
+    * Disponível ao clicar no widget.
 
 * Adicionado loader no widget
-	* Enquanto se obtém o cardápio, widget exibe barra de carregamento
+    * Enquanto se obtém o cardápio, widget exibe barra de carregamento
 
 V 0.1
 ---------
@@ -44,7 +66,7 @@ V 0.1
 * Notificação da opção de carne ao clicar no widget
 
 
-Author
+Autor
 =========
 
 Rubens Pinheiro Gonçalves Cavalcante  
