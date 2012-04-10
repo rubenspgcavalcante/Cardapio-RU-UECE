@@ -9,7 +9,7 @@
 }
 
 .widget:active{
-	background-image: url("../images/widgetclick	.png");	
+	background-image: url("../images/widgetclick.png");	
 }
 
 .label{
