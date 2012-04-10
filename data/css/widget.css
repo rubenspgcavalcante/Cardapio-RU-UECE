@@ -1,11 +1,22 @@
-.label{
-    font-size:10px;
-    margin-left:-2px;
-    margin-top:2px;
-    position:absolute;
-    cursor:pointer;
+.widget{
+	width: 32px;
+	height: 16px;
+   	cursor: pointer;
 }
 
-.logo{
-    cursor:pointer;
+.widget:hover{
+	background-image: url("../images/widgethover.png");
+}
+
+.widget:active{
+	background-image: url("../images/widgetclick	.png");	
+}
+
+.label{
+    font-size: 8px;
+    margin-left: 2px;
+    margin-top: 2px;
+    position: absolute;
+    cursor: pointer;
+    font-family: arial;
 }
