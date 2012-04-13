@@ -1,5 +1,6 @@
 self.port.on("setMenu", function(menu) {
-	if(menu == null){
+	//If memu or one from indexs isn't set
+	if(menu == null || menu['carne']== null){
 		$(".info-block span").html("Não definido");
 	}
 	else{
