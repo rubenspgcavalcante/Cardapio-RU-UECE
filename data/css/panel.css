@@ -1,12 +1,12 @@
 body{
     margin:-9px 0 0 0;
     padding:0;
+    background: url("../images/panel.png") no-repeat top left;
 }
 
 .box{
-    background: url("../images/panel.png") no-repeat bottom right;
-    width: 475px;
-    min-height: 320px;
+    width: 380px;
+    height: 293px;
     color: #4b4b4b;
 }
 
@@ -20,13 +20,12 @@ body{
 	background-image: url("../images/close.png");
 	border: none;
 	float:right;
-	margin-top: 10px;
-	margin-right: 10px;
+	margin-top: 5px;
+	margin-right: 5px;
 }
 
 #close:hover{
 	background-image: url("../images/closehover.png");
-
 }
 
 .box .menuheader{
@@ -35,8 +34,9 @@ body{
 	color: white;
     text-align: center;
     margin-left: 0px;
-    padding-top: 10px;
+    padding-top: 5px;
     text-shadow: 1px 1px 2px black;
+    height: 10px;
 }
 
 .box select{
@@ -51,7 +51,7 @@ body{
 ul{
 	list-style-type: none;
 	margin: 0;
-	padding:5px 0 0 28px;
+	padding:0 0 0 28px;
 	margin-left: -22px;
 }
 
@@ -65,9 +65,9 @@ ul{
 	opacity: 0;
     cursor: pointer;
     height: 38px;
-    margin-left: 75px;
+    margin-left: 68px;
     margin-top: 8px;
-    width: 394px;
+    width: 312px;
 }
 
 .menu .info-block:hover{
