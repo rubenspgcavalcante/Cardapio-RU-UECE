@@ -1,15 +1,15 @@
 .widget{
-	width: 32px;
-	height: 16px;
-   	cursor: pointer;
+    width: 32px;
+    height: 16px;
+    cursor: pointer;
 }
 
 .widget:hover{
-	background-image: url("../images/widgethover.png");
+    background-image: url("../images/widgethover.png");
 }
 
 .widget:active{
-	background-image: url("../images/widgetclick.png");	
+    background-image: url("../images/widgetclick.png"); 
 }
 
 .label{
