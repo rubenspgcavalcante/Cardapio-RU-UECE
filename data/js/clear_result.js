@@ -40,26 +40,41 @@ function getData(data) {
     var week = new Array();
     for(var i=0;i<6;i++) week[i] = new Array();
     i = 0;
-    while(days<4){
-        row = $(table).find("tbody tr td:eq("+ i +")").text();
-        row = row.split("\n");
+    var lastCol = "";
+    
+    while(days<5){
+        col = $(table).find("td p strong:eq("+i+")").parent().parent().text();
 
-        if(row.length == 1 || row.length == 0){
+        //Searchs untill the selection altered
+        if(i != 0 && lastCol == col){
             i++;
             continue;
         }
-        for(j in row){
-            if(row[j].length == 1 || row[j].length == 0){
+        //Found a new colune!
+        else{
+            lastCol = col;
+            col = col.split("\n");
+        }
+
+        //Ok, is this row empty?...
+        if(col.length == 1 || col.length == 0){
+            i++;
+            continue;
+        }
+        for(j in col){
+            //Alright, let's see if the rows have contents too:
+            if(col[j].length == 1 || col[j].length == 0){
                 continue;
             }
             else{
-                week[days].push(row[j]);
+                //It's not empty! Push this content in the week list
+                week[days].push(col[j]);
             }
         }
         i++;
-        days++;
+        days++; //The list in 'days' index is full now! Setting to another day
     }
-    return clearResult(week);
+    return clearResult(week); //It returns in JSON format
 }
 
 $(document).ready(function(){
