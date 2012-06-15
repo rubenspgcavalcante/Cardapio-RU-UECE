@@ -21,6 +21,15 @@ Mais informações de como utilizá-lo em [Mozzila add-on 1.6](https://addons.mo
 
 
 ##Changelog
+V 0.5
+-------
+* Updates de segurança
+    * 'Escapando' HTML que vem do request de acordo com as medidas de segurança da Mozzila:
+        *[DOM Building and HTML Insertion](https://developer.mozilla.org/en/XUL_School/DOM_Building_and_HTML_Insertion)
+
+* Melhoria na interface
+    * Modificações nas cores e fontes do painel
+    * Alterações de fundo do widget
 
 V 0.4
 -------
