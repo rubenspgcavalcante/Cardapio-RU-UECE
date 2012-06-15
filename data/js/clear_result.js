@@ -1,7 +1,14 @@
 /**
-* Gets the last R.U.s lunch menu.
+* Serialize the R.U.s lunch menu.
 *
 */
+
+/**
+* Function to escape the innher HTML 
+* From https://developer.mozilla.org/en/XUL_School/DOM_Building_and_HTML_Insertion
+*/
+function escapeHTML(str) str.replace(/[&"<>]/g, function (m) escapeHTML.replacements[m]);  
+escapeHTML.replacements = { "&": "&amp;", '"': "&quot", "<": "&lt;", ">": "&gt;" }; 
 
 /**********************
 Helper functions declarations
@@ -44,6 +51,9 @@ function getData(data) {
     
     while(days<5){
         col = $(table).find("td p strong:eq("+i+")").parent().parent().text();
+
+        //Escapes the inner html
+        col = escapeHTML(col);
 
         //Searchs untill the selection altered
         if(i != 0 && lastCol == col){

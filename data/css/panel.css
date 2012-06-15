@@ -7,7 +7,8 @@ body{
 .box{
     width: 380px;
     height: 293px;
-    color: #4b4b4b;
+    color: #000;
+    text-shadow: 0px 0px 3px #ddd;
 }
 
 #close{
@@ -31,12 +32,13 @@ body{
 .box .menuheader{
     font-size:14px;
     text-align: center;
-    color: white;
+    color: #e0e0e0;
     text-align: center;
     margin-left: 0px;
     padding-top: 5px;
-    text-shadow: 1px 1px 2px black;
+    text-shadow: 1px 1px #444, -1px -1px #444;
     height: 10px;
+    font-family: Arial, "MS Trebuchet", sans-serif;
 }
 
 .box select{
@@ -62,18 +64,17 @@ ul{
 
 .menu .info-block{
     font-family: arial;
-    opacity: 0;
     cursor: pointer;
     height: 38px;
     margin-left: 68px;
     margin-top: 8px;
-    width: 312px;
+    width: 320px;
 }
 
 .menu .info-block:hover{
     background-color: #393939;
     box-shadow:1px 1px 12px #393939;
-    color: white;
+    color: #fff !important;
     font-weight: bold;
     text-shadow: 2px 1px 2px black;
 }
@@ -93,6 +94,7 @@ ul{
     float: left;
     font-family: arial;
     margin-top:10px;
-    margin-left: 4px;
+    margin-left: 12px;
     font-size: 13px;
 }
+
