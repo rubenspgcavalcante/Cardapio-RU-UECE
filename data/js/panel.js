@@ -22,10 +22,10 @@ $(document).ready(function(){
 
     $("#days").change(function(event){
         var select = $(event.target+":selected").val();
-        self.port.emit("day-change", select);
+        self.port.emit("dayChange", select);
     });
 
     $("#close").click(function(){
-        self.port.emit("close-panel");
+        self.port.emit("closePanel");
     });
 });

@@ -89,7 +89,7 @@ function getData(data) {
 
 $(document).ready(function(){
 
-    $(".logo, .label").click(function(){
+    $(".widget").click(function(){
         self.port.emit("click");
     });
 
