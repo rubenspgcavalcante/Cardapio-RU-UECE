@@ -17,10 +17,14 @@ Mesmo sem isso a extensão funciona normalmente, podendo-se acessar o painel com
 ##Informações técnicas
 
 Utilizando o firefox add-on SDK 1.6.  
-Mais informações de como utilizá-lo em [Mozzila add-on 1.6](https://addons.mozilla.org/en-US/developers/docs/sdk/latest/).
+Mais informações de como utilizá-lo em [Mozzila add-on 1.14](https://addons.mozilla.org/en-US/developers/docs/sdk/latest/).
 
 
 ##Changelog
+V 0.53
+-------
+* Adicionado suporte ao Firefox 22
+
 V 0.5
 -------
 * Updates de segurança
